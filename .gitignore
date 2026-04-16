@@ -1,0 +1,5 @@
+downloads/
+export_out/
+*.part
+__pycache__/
+*.pyc

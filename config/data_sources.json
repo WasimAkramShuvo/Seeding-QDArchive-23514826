@@ -1,0 +1,19 @@
+{
+  "repositories": {
+    "dataverse_no": {
+      "name": "DataverseNO",
+      "url": "https://dataverse.no/dataverse.xhtml",
+      "api_url": "https://dataverse.no/api",
+      "type": "api",
+      "description": "Norwegian Dataverse Network",
+      "search_url": "https://dataverse.no/dataverse/root/?q=qdpx"
+    },
+    "icpsr": {
+      "name": "ICPSR - Inter-university Consortium for Political and Social Research",
+      "url": "https://icpsr.umich.edu",
+      "type": "web",
+      "description": "World's largest archive of social science data",
+      "search_url": "https://www.icpsr.umich.edu/web/ICPSR/search/studies?q=interview"
+    }
+  }
+}

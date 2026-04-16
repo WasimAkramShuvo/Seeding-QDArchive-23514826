@@ -1,0 +1,105 @@
+{
+  "qda_software": {
+    "REFI-QDA": {
+      "website": "https://www.qdasoftware.org/",
+      "extensions": [".qdpx", ".qdc"]
+    },
+    "MaxQDA": {
+      "website": "https://www.maxqda.com/",
+      "extensions": [
+        ".mqda", ".mqbac", ".mqtc", ".mqex", ".mqmtr",
+        ".mx24", ".mx24bac", ".mc24", ".mex24",
+        ".mx22", ".mx20", ".mx18", ".mx12", ".mx11",
+        ".mx5", ".mx4", ".mx3", ".mx2", ".m2k",
+        ".loa", ".sea", ".mtr", ".mod", ".mex22"
+      ]
+    },
+    "NVivo": {
+      "website": "https://lumivero.com/products/nvivo/",
+      "extensions": [".nvp", ".nvpx"]
+    },
+    "ATLAS.ti": {
+      "website": "https://atlasti.com/",
+      "extensions": [".atlasproj", ".hpr7"]
+    },
+    "QDA Miner": {
+      "website": "https://provalisresearch.com/products/qualitative-data-analysis-software/",
+      "extensions": [".ppj", ".pprj", ".qlt"]
+    },
+    "f4analyse": {
+      "website": "https://www.audiotranskription.de/en/",
+      "extensions": [".f4p"]
+    },
+    "Quirkos": {
+      "website": "https://www.quirkos.com/",
+      "extensions": [".qpd"]
+    },
+    "HyperRESEARCH": {
+      "website": "https://www.researchware.com/",
+      "extensions": [".hpr", ".hpr6", ".hpr7", ".hpr8"]
+    },
+    "Transana": {
+      "website": "https://www.transana.com/",
+      "extensions": [".tra", ".transana"]
+    },
+    "Ethnograph": {
+      "website": "http://www.qualisresearch.com/",
+      "extensions": [".eth", ".ethnograph"]
+    },
+    "Taguette": {
+      "website": "https://www.taguette.org/",
+      "extensions": [".taguette", ".sqlite"]
+    },
+    "Coding Analysis Toolkit": {
+      "website": "https://cat.texifter.com/",
+      "extensions": [".cat"]
+    },
+    "Weft QDA": {
+      "website": "http://www.pressure.to/qda/",
+      "extensions": [".weft"]
+    },
+    "Aquad": {
+      "website": "http://www.aquad.de/",
+      "extensions": [".aqd"]
+    },
+    "Cassandre": {
+      "website": "http://cassandre.ulb.ac.be/",
+      "extensions": [".cass"]
+    },
+    "QDA Miner Lite": {
+      "website": "https://provalisresearch.com/",
+      "extensions": [".qlp"]
+    },
+    "Saturate": {
+      "website": "https://saturateapp.com/",
+      "extensions": [".saturate"]
+    },
+    "Delve": {
+      "website": "https://delvetool.com/",
+      "extensions": [".delve"]
+    },
+    "Raven's Eye": {
+      "website": "https://www.ravenseye.com/",
+      "extensions": [".raven"]
+    }
+  },
+  "all_extensions": [
+    ".qdpx", ".qdc",
+    ".mqda", ".mqbac", ".mqtc", ".mqex", ".mqmtr",
+    ".mx24", ".mx24bac", ".mc24", ".mex24",
+    ".mx22", ".mx20", ".mx18", ".mx12", ".mx11",
+    ".mx5", ".mx4", ".mx3", ".mx2", ".m2k",
+    ".loa", ".sea", ".mtr", ".mod", ".mex22",
+    ".nvp", ".nvpx",
+    ".atlasproj", ".hpr7",
+    ".ppj", ".pprj", ".qlt",
+    ".f4p", ".qpd",
+    ".hpr", ".hpr6", ".hpr8",
+    ".tra", ".transana",
+    ".eth", ".ethnograph",
+    ".taguette", ".sqlite",
+    ".cat", ".weft",
+    ".aqd", ".cass", ".qlp",
+    ".saturate", ".delve", ".raven"
+  ]
+}

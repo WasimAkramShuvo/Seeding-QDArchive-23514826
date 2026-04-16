@@ -1,0 +1,31 @@
+{
+  "description": "Smart queries for finding qualitative data and QDA files across repositories",
+
+  "qda_file_extensions": {
+    "description": "Search for specific QDA file extensions (without the dot)",
+    "queries": [
+      "qdpx", "qdc", "mqda", "mqbac", "mqtc", "mqex", "mqmtr",
+      "mx24", "mx24bac", "mc24", "mex24", "mx22", "mx20", "mx18",
+      "mx12", "mx11", "mx5", "mx4", "mx3", "mx2", "m2k",
+      "loa", "sea", "mtr", "mod", "mex22", "nvp", "nvpx",
+      "atlasproj", "hpr7", "ppj", "pprj", "qlt", "f4p", "qpd",
+      "hpr", "hpr6", "hpr8", "tra", "transana", "eth", "ethnograph",
+      "taguette", "cat", "weft", "aqd", "cass", "qlp",
+      "saturate", "delve", "raven"
+    ]
+  },
+
+  "qda_software_names": {
+    "description": "Search for QDA software names",
+    "queries": [
+      "NVivo", "MaxQDA", "ATLAS.ti", "Dedoose", "QDA Miner",
+      "REFI-QDA", "Taguette", "Transana", "HyperRESEARCH"
+    ]
+  },
+
+  "priority_queries": {
+    "tier_1_extensions": ["qdpx", "nvpx", "nvp", "atlasproj", "mqda", "mx24"],
+    "tier_2_software": ["NVivo", "MaxQDA", "ATLAS.ti", "Taguette", "QDA Miner"],
+    "tier_3_methods": ["qualitative", "interview", "transcript", "focus group", "coding", "codebook", "thematic analysis"]
+  }
+}
