@@ -89,54 +89,61 @@ Seeding-QDArchive-23514826/
 ├─ 23514826-seeding.db         # Main deliverable: metadata DB
 ├─ main.py                     # Entry point: runs the pipeline
 └─ requirements.txt            # Python dependencies
+```
+---
 
 ## Setup & Run
 
 ### 1) Create and activate a virtual environment (recommended)
 
+**Windows PowerShell**
+
 ```bash
 python -m venv .venv
 .\.venv\Scripts\activate
+```
+### 2) Install dependencies
 
-2) Install dependencies
+```bash
 pip install -r requirements.txt
-3) Run the pipeline
+```
+### 3) Run the pipeline
+
+```bash
 python main.py
+```
+### The run will:
 
-The run will:
+- update/create 23514826-seeding.db
+- write downloaded files + ICPSR links.txt folders into downloads/
+- export database tables to CSV in export_out/
 
-update/create 23514826-seeding.db
-write downloaded files + ICPSR links.txt folders into downloads/
-export database tables to CSV in export_out/
-Outputs
-Downloads folder
-DataverseNO: downloads/dataverse-no/<dataset-folder>/...
-ICPSR: downloads/ICPSR/<record-folder>/links.txt
+## Outputs
+### Downloads folder
+- DataverseNO: downloads/dataverse-no/<dataset-folder>/...
+- ICPSR: downloads/ICPSR/<record-folder>/links.txt
 
-Example links.txt:
-
+### Example `links.txt`:
+```bash
 Title: <title>
 DOI: <doi>
 Landing: <url>
-SQLite database
-23514826-seeding.db (in repo root)
-Why downloads/ is not pushed to GitHub
+```
+
+## SQLite database
+
+- 23514826-seeding.db (in repo root)
+
+### Why `downloads/` is not pushed to GitHub
 
 Downloaded files can be large, so the repo uses .gitignore to exclude:
 
-downloads/
-Python cache (__pycache__, *.pyc)
+- `downloads/`
+- Python cache (`__pycache__`, `*.pyc`)
 
-If required for submission, the downloads folder can be shared separately via FAUbox/OneDrive/Google Drive.
+## Downloads link (FAUbox)
 
-Submission checklist
+Downloaded files are not committed to GitHub (too large).  
+You can access the full `downloads/` folder here:
 
-✅ Code committed to GitHub
-✅ 23514826-seeding.db in repo root
-✅ Tag release (example: part-1-release)
-✅ Provide a separate download link for the downloads/ folder (if required)
-
-
----
-
-If you want, send me what you put in **DownloadLink.txt** (or your plan), and I’ll add a clean “Downloads Link” section to the README too.
+- FAUbox: <https://faubox.rrze.uni-erlangen.de/getlink/fi8si2zYWRfJfUi17TjhjH/>
